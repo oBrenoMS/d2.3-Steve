@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+  }
+
+a:hover {
+    filter: invert();
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+}    
+
+.menu {
+    background-color: #00A68E;
+    text-align: center;
+    /* colocar logos na pagina em cima a aba. colocar logo na barra de cima. linkar os botoes as suas respectivas areas. criar bolinha pra subir. */
+}
+
+
+.verde-texto {
+    color: #f9f9f9;
+}
+
+.verde-fundo {
+    background-color: #00A68E;
+}
+
+.fundo-branco {
+    background-color: white;
+}
+
+.titulo {
+    font-weight: 900;
+    color: #00A68E;
+}
+.sub2 {
+    margin: 10px auto;
+    font-weight: 400;
+    
+}
+
+.navy-texto {
+    color: #ffffff;
+}
+.sub3{
+    color: #ffffff;
+    font-weight: lighter;
+    margin: 20px auto;
+}
+
+.centralizar {
+    padding: 0 30%;
+}
+
+.secao {
+    padding: 5% 0;
+}
+.block {
+    display: block;
+}
+
+.perfil {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 420px;
+}
+
+.sc-perfil {
+    text-align: center;
+}
+
+.botaoo {
+    display: block;
+    width: 220px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.boladao {
+    font-size: 36pt;
+    font-weight: 600;
+    color: #00A68E;
+}
+
+.linha {
+    width: 100px;
+    border-top: 5px solid #00A68E;
+    margin: 20px 0;
+}
+
+.texto {
+    /* font-size: 16pt; */
+    color: #ffffff;
+}
+
+.label {
+    margin-top: 30px;
+    display: inline-block;   
+}
+
+.progress-label{
+    /* display: inline-block; */
+    text-align: right;
+    right: 0;
+}
+progress {
+    border: 0;
+    width: 100%;
+    height: 15px;
+}
+  
+progress::-webkit-progress-value {
+    background: #00A78E;
+    border-radius: 10px;
+}
+  
+progress::-webkit-progress-bar {
+    background: #e2e4e3;
+    border-radius: 10px;
+}
+
+.bg-cinza {
+    background-color: #00A68E;
+    padding: 50px 10%;
+}
+
+.bg-cinza h2, .linha {
+    text-align: center;
+}
+
+.bg-cinza .linha{
+    margin: 15px auto;
+
+}
+.painel {
+    column-count: 2;
+    max-width: 630px;
+    margin: auto;
+    
+}
+
+.quadrado {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: inline-block;
+    min-height: 300px;
+    margin: 5%;
+    max-width: 300px;
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px #c6c6c6;
+}
+
+.quadrado img {
+    width: 100px;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.sub4 {
+    margin-bottom: 10px;
+}
+
+.bg-contato {
+    background: center / cover no-repeat url('/img/mapamundo.png');
+    padding: 10%;
+}
+.contato {
+    padding: 8%;
+    height: 300px;
+    background-color: #00A68E;
+    margin: 10%;
+    border-radius: 15px;    
+}
+
+.cont-container {
+    color: white;
+    margin: auto;
+}
+
+.cont-container span{
+    display: block;
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 400px;
+    background-color: #000000;
+    padding: 10%;
+    text-align: center;
+}
+
+.ft-container {
+    margin: auto;
+}
+
+.social {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+i {
+        width: 80px;
+        color: #00A68E;
+        margin: auto auto 20px auto;
+        font-size: 24pt;
+}
+
+li {
+    display: inline-block;
+    margin: 30px 20px;
+    font-weight: bold;
+}
+
+ul {
+    color: #00A68E;
+}
+
+.text-final {
+    color: #00A68E;
+}
+
+.email {
+    font-size: 20px;
+    color: #00A68E;
+}
+
+p {
+    color: white;
+}
